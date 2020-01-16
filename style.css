@@ -1,0 +1,129 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fffbbb;
+    margin: auto;
+    width: 40%;
+    font-size: 14px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    line-height: 170%;
+}
+
+h1 {
+    color: #ade2ff;
+}
+
+.présentation img {
+    border: 4px solid #ade2ff;
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+}
+
+.movies img {
+    max-width: 100px;
+    height: auto;
+}
+
+div {
+    background-color: rgb(250, 249, 249);
+}
+
+.présentation {
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 1.5px 1.5px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.réseaux {
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1.5px 1.5px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.movies {
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 10% 30% 30% 30%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    box-shadow: 1.5px 1.5px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.movies h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.présentation a {
+    padding: 8px;
+    background-color: #ade2ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+}
+
+.movies h2 {
+    text-align: center;
+}
+
+span {
+    background-color: #ade2ff;
+}
+
+i,
+.réseaux a {
+    color: #ade2ff;
+}
+
+.réseaux a {
+    margin-inline: 30px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: auto;
+}
+
+.timbernerlee {
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+.movies p {
+    text-align: justify;
+}
